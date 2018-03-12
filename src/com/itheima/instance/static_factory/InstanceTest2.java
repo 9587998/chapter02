@@ -3,7 +3,7 @@ package com.itheima.instance.static_factory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class InstanceText2 {
+public class InstanceTest2 {
 
 	public static void main(String[] args) {
 		//1. 定义配置文件路径

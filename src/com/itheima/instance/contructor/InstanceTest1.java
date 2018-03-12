@@ -14,6 +14,8 @@ public class InstanceTest1 {
     	
     	/*Bean1 bean = (Bean1) applicationContext.getBean("bean1");
     	 System.out.println(bean);*/
-    	 System.out.println(applicationContext.getBean("bean1"));
+    	 Bean1   bean=(Bean1) applicationContext.getBean("bean1");
+    	 bean.say();
+    	 System.out.println(applicationContext.getBean("bean1").getClass());
 	}
 }
